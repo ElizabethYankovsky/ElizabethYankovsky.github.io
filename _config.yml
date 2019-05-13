@@ -3,8 +3,6 @@ author: Elizabeth Yankovsky
 github: http://www.github.com/ElizabethYankovsky
 email: eyankovsky@gmail.com
 
-##Make sure to edit the above fields, especially for disqus.
-
 
 highlighter: pygments
 markdown: redcarpet

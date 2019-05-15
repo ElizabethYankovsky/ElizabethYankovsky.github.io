@@ -59,8 +59,9 @@ p
 
 .container
 {
-  width:80%;
-  padding-right:0;
+  width:100%;
+  padding-left:15px;
+  padding-right:15px;
   padding-top:30px
 }
 
@@ -115,8 +116,8 @@ p
 
 .sidebar-nav li
 {
-  line-height:10px;
-  text-indent:40px;
+  line-height:30px;
+  margin-left:40px;
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:200;
   color:#9c9c9c;
@@ -227,8 +228,8 @@ pre
 
 #social-wrapper
 {
-  color:#5c646f;
-  padding:10px 0
+ margin-left:-40px;
+ color:#5c646f;
 }
 
 #social-wrapper a
@@ -240,7 +241,6 @@ pre
 #social-wrapper li
 {
   font-size:15px;
-  text-indent:0;
   word-spacing:10px
 }
 
@@ -468,7 +468,7 @@ time
   -moz-box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
   -webkit-box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
   border-bottom:solid 1px #fff;
-  background-image:url(http://lorempixel.com/900/200/);
+  background-image:url("/images/projects.jpg");
   background-size: cover;
   z-index:-4;
   margin-top:-55px;

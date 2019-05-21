@@ -9,7 +9,6 @@ body
   border-top:solid #d90006;
   border-width:10px
 }
-
 h1,h2,h3,h4,h5,h6
 {
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
@@ -59,6 +58,15 @@ p
 
 .container
 {
+  width:100%;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:30px
+}
+
+.container-about
+{
+  background-image:url("/images/project4.png");
   width:100%;
   padding-left:15px;
   padding-right:15px;
@@ -262,16 +270,6 @@ pre
   border-bottom:solid 1px #fff;
   background-size: cover;
   z-index:-4
-}
-
-.showcase-text
-{
-  font-size:3em;
-  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
-  font-weight:bolder;
-  color:#fff;
-  text-align:center;
-  padding-top:20%
 }
 
 .wide
@@ -736,9 +734,4 @@ time
 
 
 
-.showcase-wrapper {
-  width: 100%;
-  height: 50%;
-  font-size: small;
-}
 

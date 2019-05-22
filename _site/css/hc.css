@@ -66,7 +66,7 @@ p
 
 .container-about
 {
-  min-height:1000px;
+  min-height:900px;
   background-image:url("/images/background2.jpg");
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -524,9 +524,17 @@ time
 
 .project-post h4
 {
-  font-weight:200;
+  color:#d90006
+  font-weight:300;
   text-align:justify;
-  padding-right:5px
+  padding-right:10px
+}
+.outreach-post h4
+{
+  color:#d90006
+  font-weight:300;
+  text-align:justify;
+  padding-right:10px
 }
 
 .user-card
@@ -539,20 +547,18 @@ time
 {
   margin-left:30px;
   margin-right:30px;
-  margin-top:30px;
-  background-color:rgba(249,249,249,0.35);
+  margin-top:50px;
+  background-color:rgba(255,255,255,0.5);
   text-align:justify;
-  padding-top:0px;
-  padding-bottom:0px;
   padding-left:10px;
   padding-right:10px;
 }
 .about-card h1
 {
-  font-size:1.2em;
-  font-weight:400;
-  line-height:120%;
-  color:#8B0000;
+  font-size:1em;
+  font-weight:350;
+  line-height:110%;
+  color:#d90006;
 }
 
 .user-card p
@@ -575,22 +581,22 @@ time
   text-shadow:1px 1px #fff
 }
 
-.fashion
+.research
 {
   border-left:solid 2px #bc0005
 }
 
-.fashion-button
+.research-button
 {
   background-color:#bc0005
 }
 
-.fashion:hover
+.research:hover
 {
   border-left:solid 2px #f40006
 }
 
-.fashion-button:hover
+.research-button:hover
 {
   background-color:#f40006
 }
@@ -615,26 +621,6 @@ time
   background-color:#bbe9e2
 }
 
-.tech
-{
-  border-left:solid 2px #644539
-}
-
-.tech-button
-{
-  background-color:#644539
-}
-
-.tech:hover
-{
-  border-left:solid 2px #F4A273
-}
-
-.tech-button:hover
-{
-  background-color:#F4A273
-}
-
 .misc
 {
   border-left:solid 2px #9e9599
@@ -655,25 +641,6 @@ time
   background-color:#cfe0ea
 }
 
-.podcasts
-{
-  border-left:solid 2px #387b94
-}
-
-.podcasts-button
-{
-  background-color:#387b94
-}
-
-.podcasts:hover
-{
-  border-left:solid 2px #2FD0EF
-}
-
-.podcasts-button:hover
-{
-  background-color:#2FD0EF
-}
 
 #menu-toggle,.project-post div
 {
